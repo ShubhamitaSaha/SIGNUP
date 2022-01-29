@@ -1,0 +1,46 @@
+form
+{
+    border: 15px solid #f1f1f1;
+    
+}
+input[type=text],input[type=text]
+{
+    width: 100%;
+    padding: 14px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=date],input[type=email]
+{
+    width: 100%;
+    padding: 14px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=submit],input[type=reset]
+{
+    background-color:beige;
+    height: 32px;
+    color:aqua;
+    padding: 14px 20 px;
+    margin: 5px 0;
+    border: none;
+    width: 100%;
+
+}
+
+.imgcontainer
+{
+     padding: 5px;
+}
+@media screen{
+     
+    form.mainform
+    {
+        width: 350px;
+        text-align: center;
+    }
